@@ -1,0 +1,25 @@
+# Site settings
+title: Dhananjaya Bandara Portfolio
+email: prasannadananjaya7@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Portfolio of Dhananjaya Bandara - Computer Science Graduate and Fullstack Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dhananjayabandara.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: DhananjayaBandara
+github_username:  DhananjayaBandara
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+theme: minima
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
